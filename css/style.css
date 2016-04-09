@@ -54,20 +54,16 @@ body:after {
 
 }
 .wrap{
-	width:80%;
-	margin:0 auto;
+	padding:0px 10px;
 }
-/* ---------- TITLE ---------- */
-
-
 /* ---------- TIMER ---------- */
 ul#countdown{text-align:center;padding-top: 15px;}
 ul#countdown span {
 	color: #FFF;
-	font-size: 4em;
+	font-size: 3em;
 	font-weight: bold;
 	width: 80px;
-	height: 94px;
+	height: 53px;
 	text-align: center;
 	display: inline-block;
 }
@@ -76,7 +72,7 @@ ul#countdown h3{
 }
 ul#countdown li{
 	display:inline-block;
-	width: 10%;
+	width: 24%;
 }
 ul#countdown li p.timeRefDays,
 ul#countdown li p.timeRefHours,
@@ -90,25 +86,24 @@ ul#countdown li p.timeRefSeconds {
 /*---start-content-header----*/
 .content-header h1{
 	color: #fff;
-	font-size: 4em;
+	font-size: 2.5em;
 	font-weight: inherit;
 }
 .content-header h2{
 	color: #fff;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: inherit;
-	/*text-align: center;*/
-	/*display: inline-block;*/
 }
 .content-header p{
 	color: #fff;
 	font-size: 1em;
 	font-weight: inherit;
 	word-spacing: 0.2em;
+	margin-top: 0.3em;
 }
 .content-header {
 	text-align: center;
-	margin-top: 10em;
+	margin-top: 2em;
 }
 //*---start-notify-form----*/
 .notify{
@@ -127,7 +122,7 @@ ul#countdown li p.timeRefSeconds {
 	word-spacing: 2px;
 }
 .notify input[type="text"]{
-	width:80%;
+	width: 55%;
 	padding:12px;
 	border:none;
 	outline:none;
@@ -148,8 +143,6 @@ ul#countdown li p.timeRefSeconds {
 	cursor:pointer;
 }
 .notify {
-	width: 50%;
-	margin: 0 auto;
 	text-align: center;
 	background: rgba(0, 0, 0, 0.31);
 	padding: 2em;
@@ -162,7 +155,7 @@ ul#countdown li p.timeRefSeconds {
 /*---start-socail-icons----*/
 .social-icons h3{
 	color: #FFF;
-	font-size: 1em;
+	font-size: 1.5em;
 	margin: 1em 1em 0.5em 1em;
 	word-spacing: 4px;
 }
@@ -177,7 +170,7 @@ ul#countdown li p.timeRefSeconds {
 }
 .social-icons ul li a{
 	background: #FFF;
-	padding: 10px;
+	padding: 7px;
 	border-radius: 30em;
 	margin: 5px;
 	display: block;
@@ -214,59 +207,4 @@ ul#countdown li p.timeRefSeconds {
 }
 .copy-right p a:hover{
 	color:#000;
-}
-/*-----start-responsive-design------*/
-@media only screen and (max-width: 1366px) and (min-width: 1280px) {
-	.wrap{
-		width:95%;
-	}
-	.content-header {
-		margin-top: 7em;
-	}
-}
-@media only screen and (max-width: 1280px) and (min-width: 1024px) {
-	.wrap{
-		width:95%;
-	}
-	.content-header {
-		margin-top: 7em;
-	}
-}
-@media only screen and (max-width: 1024px) and (min-width: 768px) {
-	.wrap{
-		width:95%;
-	}
-	.content-header {
-		margin-top: 7em;
-	}
-	.content-header h1 {
-		font-size: 3.2em;
-	}
-	ul#countdown li {
-		width: 15%;
-	}
-	.notify {
-		width: 58%;
-	}
-}
-@media only screen and (max-width: 768px) and (min-width: 640px) {
-	.wrap{
-		width:95%;
-	}
-	.content-header {
-		margin-top: 5em;
-	}
-	.content-header h1 {
-		font-size: 2.5em;
-	}
-	ul#countdown li {
-		width: 18%;
-	}
-	.notify {
-		width: 77%;
-	}
-	.content-header p {
-		width: 80%;
-		margin: 0 auto;
-	}
 }
