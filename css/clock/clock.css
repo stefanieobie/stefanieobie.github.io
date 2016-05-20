@@ -83,25 +83,25 @@ ul#countdown li p.timeRefSeconds {
 	font-size: 1.2em;
 	191919
 }
-/*---start-content-header----*/
-.content-header h1{
+/*---start-clock-header----*/
+.clock-header h1{
 	color: #fff;
 	font-size: 2.5em;
 	font-weight: inherit;
 }
-.content-header h2{
+.clock-header h2{
 	color: #fff;
 	font-size: 1.5em;
 	font-weight: inherit;
 }
-.content-header p{
+.clock-header p{
 	color: #fff;
 	font-size: 1em;
 	font-weight: inherit;
 	word-spacing: 0.2em;
 	margin-top: 0.3em;
 }
-.content-header {
+.clock-header {
 	text-align: center;
 	margin-top: 2em;
 }
